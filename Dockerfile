@@ -3,5 +3,5 @@ From tomcat:8-jre8
 
 # Maintainer 
 MAINTAINER "leonnelf@yahoo.com" 
-COPY ./webapp.war /https://github.com/Franck1993/hello-world.git
+COPY ./webapp/target/webapp.war /usr/local/tomcat/webapps
 
